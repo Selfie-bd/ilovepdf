@@ -203,7 +203,7 @@ async def documents(bot, message):
     try:
         global invite_link
         await bot.send_chat_action(
-            message.chat.id, "typing🦋"
+            message.chat.id, "typing"
         )
         # CHECK USER IN CHANNEL (IF UPDATE_CHANNEL ADDED)
         if UPDATE_CHANNEL:
