@@ -33,7 +33,7 @@ ADMINS=Config.ADMINS
 UCantUse = "For Some Reason You Can't Use This Bot 🛑"
 
 
-feedbackMsg = "[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"
+feedbackMsg = "[Write a feedback 📂](https://t.me/tlgrmcbot?start=image2pdfdcbot-review)"
 
 
 button=InlineKeyboardMarkup(
@@ -41,7 +41,7 @@ button=InlineKeyboardMarkup(
             [
                 InlineKeyboardButton(
                     "😉 Create your Own 😉",
-                    url="https://github.com/nabilanavab/ilovepdf"
+                    url="https://github.com/selfie-bd/ilovepdf"
                 )
             ]
        ]
@@ -75,7 +75,7 @@ async def generate(bot, message):
         # IF NO IMAGES SEND BEFORE
         if not images:
             await bot.send_chat_action(
-                message.chat.id, "typing"
+                message.chat.id, "typing...."
             )
             imagesNotFounded = await message.reply_text(
                 "`No image founded.!!`😒"
