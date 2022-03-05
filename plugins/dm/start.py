@@ -27,16 +27,15 @@ Some of the main features are:
 ◍ `Convert PDF to images`
 ◍ `Convert files to pdf`
 
-Update Channel: @ilovepdf_bot 💎
+🔰 Update Channel: @GroupDcBots
 
-[Source Code 🏆](https://github.com/nabilanavab/ilovepdf)
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+[Write a feedback To Me ⭐](https://t.me/tlgrmcbot?start=image2pdfdcbot-review)"""
 
 
 UCantUse = "For Some Reason You Can't Use This Bot 🛑"
 
 
-forceSubMsg = """Wait [{}](tg://user?id={})..!!
+forceSubMsg = """Please Wait [{}](tg://user?id={})..!!
 
 Due To The Huge Traffic Only Channel Members Can Use this Bot 🚶
 
@@ -45,23 +44,20 @@ This Means You Need To Join The Below Mentioned Channel for Using Me!
 hit on "retry ♻️" after joining.. 😅"""
 
 
-aboutDev = """Owned By: @nabilanavab
-Update Channel: @ilovepdf_bot
+aboutDev = """Owned By: @Selfiebd
+Update Channel: @GroupDcBots
 
-Now its easy to create your Own nabilanavab/ilovepdf bot
-
-[Source Code 🏆](https://github.com/nabilanavab/ilovepdf)
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"""
+[Write a feedback 📋](https://t.me/tlgrmcbot?start=image2pdfdcbot-review)"""
 
 
 exploreBotEdit = """
 [WORKING IN PROGRESS
 
-Join @ilovepdf_bot bot Updates 💎](https://t.me/ilovepdf_bot)
+Join Groupdcbots Updates 🔥](https://t.me/groupdcbots)
 """
 
 
-foolRefresh = "വിളച്ചിലെടുക്കല്ലേ കേട്ടോ 😐"
+foolRefresh = "i know 😐"
 
 #--------------->
 #--------> config vars
@@ -81,7 +77,7 @@ ADMINS=Config.ADMINS
 async def start(bot, message):
         global invite_link
         await bot.send_chat_action(
-            message.chat.id, "typing"
+            message.chat.id, "typing...."
         )
         # CHECK IF USER BANNED, ADMIN ONLY..
         if (message.chat.id in BANNED_USERS) or (
@@ -141,17 +137,17 @@ async def start(bot, message):
                 [
                     [
                         InlineKeyboardButton(
-                            "🌟 Source Code 🌟",
+                            "🌻 Source Code 🌻",
                             callback_data = "strtDevEdt"
                         ),
                         InlineKeyboardButton(
-                            "Explore Bot 🎊",
+                            "🎎 Explore Bot 🤖",
                             callback_data = "exploreBot"
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            "Close 🚶",
+                            "Close ❌",
                             callback_data = "close"
                         )
                     ]
@@ -188,7 +184,7 @@ async def _strtDevEdt(bot, callbackQuery):
                     [
                         InlineKeyboardButton(
                             "💎 Source Codes 💎",
-                            url = "https://github.com/nabilanavab/ilovepdf"
+                            url = "https://github.com/selfie-bd/ilovepdf"
                         ),
                         InlineKeyboardButton(
                             "Home 🏡",
@@ -197,7 +193,7 @@ async def _strtDevEdt(bot, callbackQuery):
                     ],
                     [
                         InlineKeyboardButton(
-                            "Close 🚶",
+                            "Close ❌",
                             callback_data = "close"
                         )
                     ]
@@ -259,7 +255,7 @@ async def _back(bot, callbackQuery):
                     ],
                     [
                         InlineKeyboardButton(
-                            "Close 🚶",
+                            "Close ❌",
                             callback_data = "close"
                         )
                     ]
@@ -300,7 +296,7 @@ async def _refresh(bot, callbackQuery):
                     ],
                     [
                         InlineKeyboardButton(
-                            "Close 🚶",
+                            "Close ❌",
                             callback_data = "close"
                         )
                     ]
