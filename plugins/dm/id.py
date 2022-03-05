@@ -33,7 +33,7 @@ button=InlineKeyboardMarkup(
             [
                 InlineKeyboardButton(
                     "😉 Create your Own 😉",
-                    url="https://github.com/nabilanavab/ilovepdf"
+                    url="https://github.com/selfie-bd/ilovepdf"
                 )
             ]
        ]
@@ -48,7 +48,7 @@ button=InlineKeyboardMarkup(
 async def userId(bot, message):
     try:
         await bot.send_chat_action(
-            message.chat.id, "typing"
+            message.chat.id, "typing..🎑"
         )
         if (message.chat.id in BANNED_USERS) or (
             (ADMIN_ONLY) and (message.chat.id not in ADMINS)
