@@ -28,7 +28,7 @@ ADMINS=Config.ADMINS
 UCantUse = "For Some Reason You Can't Use This Bot 🛑"
 
 
-feedbackMsg = "[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"
+feedbackMsg = "[Write a feedback 📋](https://t.me/tlgrmcbot?start=image2pdfdcbot-review)"
 
 
 button=InlineKeyboardMarkup(
@@ -36,7 +36,7 @@ button=InlineKeyboardMarkup(
             [
                 InlineKeyboardButton(
                     "😉 Create your Own 😉",
-                    url="https://github.com/nabilanavab/ilovepdf"
+                    url="https://github.com/selfie-bd/ilovepdf"
                 )
             ]
        ]
