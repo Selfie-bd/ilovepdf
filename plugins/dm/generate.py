@@ -75,7 +75,7 @@ async def generate(bot, message):
         # IF NO IMAGES SEND BEFORE
         if not images:
             await bot.send_chat_action(
-                message.chat.id, "typing...."
+                message.chat.id, "typing"
             )
             imagesNotFounded = await message.reply_text(
                 "`No image founded.!!`😒"
