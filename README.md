@@ -1,33 +1,4 @@
-
-<img src="https://telegra.ph/file/ec0047cc76e7080f818ff.png">
-
-<small><i>About:</i></small>
-
-```py
-  _   _                  ___  ___  _____ ™
- | | | |   _____ _____  | _ \|   \|  __| 
- | | | |__/ _ \ V / -_) |  _/| |) |  _|  
- |_| |___,\___/\_/\___| |_|  |___/|_|    
-                         [Nabil A Navab] 
-                         Email: nabilanavab@gmail.com
-                         Telegram: @nabilanavab
-```
-
-<div align="center">
-
-## Enjoy the API
-
-<i>ilovePDF is an, easy-to-use open-source Telegram PDF bot fully written in python language 🐍</i>
-<br><br>
-<b>Released Under Apache License.</b><br>
-it was specially developed for creating PDF's from images.. And Now, Bot Supports many other features for PDF manipulation 🦾
-</div>
-<a href="https://telegram.dog/ilovepdf_bot">Demo Bot</a>
-
-<div align="center">
-<h1><i>features:</i></h1>
-<h3>Images to PDF</h3>
-</div>
+## Images to PDF
 
      ◍ This bot will helps you to convert multiple
      images to pdf
@@ -134,7 +105,7 @@ the extracted PDF-images..</em>
     ╰────Railways──〄
 
 ### deploy on heroku:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nabilanavab/ilovepdf)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/selfie-bd/ilovepdf)
 
 ## Project setUp:
 
@@ -169,4 +140,6 @@ the extracted PDF-images..</em>
      modifications, please try to mention
      the changes : )
 
-![elpablo_agadhgiaanlc4gk](https://user-images.githubusercontent.com/53673312/129444963-ac9d4fe6-1be3-4b89-979b-f442e46234ab.png)
+# Thanks to Repo Owner 😊
+
+I think this is open source. So, I take and make changes. Incase this is not open source. Inform me to remove. Telegram contact [Me](t.me/selfiebd)
