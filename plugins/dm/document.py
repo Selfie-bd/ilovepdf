@@ -85,17 +85,17 @@ bigFileUnSupport = """Due to Overload, Owner limits {}mb for pdf files 🙇
 
 imageAdded = """`Added {} page/'s to your pdf..`🤓
 
-/generate to generate PDF 🤞"""
+/generate to get PDF 🤞"""
 
 
 errorEditMsg = """Something went wrong..😐
 
 ERROR: `{}`
 
-For bot updates join @ilovepdf_bot"""
+For bot updates join @GroupDc"""
 
 
-feedbackMsg = "[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)"
+feedbackMsg = "[Write a feedback 📋](https://t.me/tlgrmcbot?start=image2pdfdcbot-review)"
 
 
 forceSubMsg = """Wait [{}](tg://user?id={})..!!
@@ -112,7 +112,7 @@ button=InlineKeyboardMarkup(
             [
                 InlineKeyboardButton(
                     "😉 Create your Own 😉",
-                    url="https://github.com/nabilanavab/ilovepdf"
+                    url="https://github.com/selfie-bd/ilovepdf"
                 )
             ]
        ]
@@ -126,7 +126,7 @@ pdfReply=InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                    "⭐ get page No & info ⭐",
+                    " Info About File 🗂️",
                     callback_data="pdfInfo"
                 )
             ],
@@ -203,7 +203,7 @@ async def documents(bot, message):
     try:
         global invite_link
         await bot.send_chat_action(
-            message.chat.id, "typing"
+            message.chat.id, "typing🦋"
         )
         # CHECK USER IN CHANNEL (IF UPDATE_CHANNEL ADDED)
         if UPDATE_CHANNEL:
@@ -262,7 +262,7 @@ async def documents(bot, message):
                         [
                             InlineKeyboardButton(
                                 "💎 Create 2Gb Support Bot 💎",
-                                url="https://github.com/nabilanavab/ilovepdf"
+                                url="https://github.com/selfie-bd/ilovepdf"
                             )
                         ]
                     ]
