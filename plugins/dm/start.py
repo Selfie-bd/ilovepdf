@@ -77,7 +77,7 @@ ADMINS=Config.ADMINS
 async def start(bot, message):
         global invite_link
         await bot.send_chat_action(
-            message.chat.id, "typing...."
+            message.chat.id, "typing"
         )
         # CHECK IF USER BANNED, ADMIN ONLY..
         if (message.chat.id in BANNED_USERS) or (
