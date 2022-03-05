@@ -17,10 +17,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 pdfInfoMsg = """`What shall i wanted to do with this file.?`
 
-File Name : `{}`
-File Size : `{}`
+🗂️ File Name : `{}`
+📂 File Size : `{}`
 
-`Number of Pages: {}`✌️"""
+`🅿️ Number of Pages: {}`✌️"""
 
 #--------------->
 #--------> EDIT CHECKPDF MESSAGE (IF PDF & NOT ENCRYPTED)
@@ -40,7 +40,7 @@ async def toKnown(callbackQuery, number_of_pages):
                 [
                     [
                         InlineKeyboardButton(
-                            "⭐ get page No & info ⭐",
+                            " Info About File 🗂️ ",
                             callback_data=f"KpdfInfo|{number_of_pages}"
                         )
                     ],
