@@ -27,7 +27,7 @@ encryptedMsg = """`FILE IS ENCRYPTED` 🔐
 `🅿️ Number of Pages: {}`✌️"""
 
 
-❗codecMsg = """__I don't do anything with this file__ 😏
+codecMsg = """__I don't do anything with this file__ 😏
 
 🐉  `CODEC ERROR`  🐉"""
 
