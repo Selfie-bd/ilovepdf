@@ -32,9 +32,9 @@ ADMINS=Config.ADMINS
 UCantUse = "For Some Reason You Can't Use This Bot 🛑"
 
 
-imageAdded = """`Added {} page/'s to your pdf..`🤓
+imageAdded = """`Added {} page/'s to your pdf..`✅
 
-/generate to generate PDF 🤞"""
+/generate to Get PDF 🤞"""
 
 
 forceSubMsg = """Wait [{}](tg://user?id={})..!!
@@ -51,7 +51,7 @@ button=InlineKeyboardMarkup(
             [
                 InlineKeyboardButton(
                     "😉 Create your Own 😉",
-                    url="https://github.com/nabilanavab/ilovepdf"
+                    url="https://github.com/selfie-bd/ilovepdf"
                 )
             ]
        ]
@@ -67,7 +67,7 @@ async def images(bot, message):
     try:
         global invite_link
         await bot.send_chat_action(
-            message.chat.id, "typing"
+            message.chat.id, "typing..."
         )
         # CHECK USER IN CHANNEL (IF UPDATE_CHANNEL ADDED)
         if UPDATE_CHANNEL:
